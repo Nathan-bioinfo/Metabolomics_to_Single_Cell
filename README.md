@@ -13,7 +13,7 @@ This is the tricky part, and the most questionable. The theory is that every mol
 <img src="./match_list_metabo.png" width="300" height="300"> <br/>
 ## Convert molecules names to KEGG names
 As FELLA (the R packages we will use to infer biological pathways) only recognize KEGG names, we need to convert our list first. Please go there : https://www.metaboanalyst.ca/MetaboAnalyst/upload/ConvertView.xhtml and follow the instructions. When you have access to a list of KEGG names, paste it on a text file and you are ready for the last FELLA step.<br/>
-<img src="./match_list_kegg.png" width="300" height="300"> <br/>
+<img src="./match_list_kegg.png" width="200" height="200"> <br/>
 ## Infer pathways with molecules names: FELLA
 FELLA need to be installed with the following R command : BiocManager::install("FELLA") <br/>
 After running library(FELLA), you can lauch the shiny app by running: FELLA:::launchApp(host = "127.0.0.1", port = 8888)<br/>
