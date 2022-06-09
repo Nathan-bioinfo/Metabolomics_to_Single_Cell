@@ -17,5 +17,6 @@ As FELLA (the R packages we will use to infer biological pathways) only recogniz
 ## Infer pathways with molecules names: FELLA
 FELLA need to be installed with the following R command : BiocManager::install("FELLA") <br/>
 After running library(FELLA), you can lauch the shiny app by running: FELLA:::launchApp(host = "127.0.0.1", port = 8888)<br/>
-The only thing to do is to import a KEGG compound name file.
+The only thing to do is to import a KEGG compound name file : 
+<img src="./FELLA1.png" width="400" height="300"> <br/>
 
