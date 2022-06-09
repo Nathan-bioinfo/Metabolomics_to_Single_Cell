@@ -19,9 +19,9 @@ FELLA need to be installed with the following R command : BiocManager::install("
 After running library(FELLA), you can lauch the shiny app by running: FELLA:::launchApp(host = "127.0.0.1", port = 8888)<br/>
 The only thing to do is to import a KEGG compound name file : 
 <img src="./figs/FELLA1.png" width="600" height="400"> <br/>
-Results are Interactive map, with all the compound (enzyme and molecules) and pathways connected to your metabolites. <br/>
+Results are Interactive map, with all the compound (enzyme and molecules) and pathways connected to your metabolites. Youre metabolites are green, enzymes are orange, reactions are blue and biological pathways are red. <br/>
 <img src="./figs/FELLA2.png" width="600" height="600"> <br/>
-You can zoom in and out and rearrange label position. <br/>
+You can zoom in and out and rearrange label position. You can aslo select or highlight specific items. For more option, go to the advanced options panel. Here you can modify the number of nodes and the precision. Finally, you can download the map, part of the map or compound table in the export result panel. <br/>
 <img src="./figs/FELLA3.png" width="600" height="400"> <br/>
-## Compar ewith SingR results
+## Compare with SingR results
 Now that you have targeted some pathways, you can compare with the results guven by the gene onthology panles of SingR app.
