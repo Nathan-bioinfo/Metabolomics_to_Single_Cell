@@ -20,7 +20,7 @@ After running library(FELLA), you can lauch the shiny app by running: FELLA:::la
 The only thing to do is to import a KEGG compound name file : 
 <img src="./figs/FELLA1.png" width="600" height="400"> <br/>
 Results are Interactive map, with all the compound (enzyme and molecules) and pathways connected to your metabolites. <br/>
-<img src="./figs/FELLA2.png" width="600" height="400"> <br/>
+<img src="./figs/FELLA2.png" width="600" height="600"> <br/>
 You can zoom in and out and rearrange label position <br/>
 <img src="./figs/FELLA3.png" width="600" height="400"> <br/>
 ## Compar ewith SingR results
