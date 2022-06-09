@@ -6,6 +6,6 @@ The demonstration is based on .mzml files, raw data from LC-HRMS Thermo Q-Exacti
 It is very important to remind that the method we will explain here only gives ideas of real metabolites. It's based on m/z and retetntion time, but with a lot of inference and prediction. You will probably obtain a metabolite list with our pipeline, but keep in mind these are prediction, maybe some annotations are accurate, but these are not 100% sure results. As biologist, we have tried to do annotation job for metabolites, but for a reaaly accurate job, you will need chimist ability. <br/>
 ## Inference on molecular mass
 CAMERA is an R package for metabolites annotation : https://www.bioconductor.org/packages/devel/bioc/vignettes/CAMERA/inst/doc/CAMERA.pdf <br/>
-You will find the R code in the CAMERA_pipe.R file. If everything went well with the code, you chould obtain a csv file : <img src="./csv_fig.png" width="800" height="600">
+You will find the R code in the CAMERA_pipe.R file. If everything went well with the code, you chould obtain a csv file : <img src="./csv_fig.png" width="1000" height="600">
 
 
