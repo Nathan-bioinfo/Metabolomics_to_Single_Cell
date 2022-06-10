@@ -24,4 +24,4 @@ Results are Interactive map, with all the compound (enzyme and molecules) and pa
 You can zoom in and out and rearrange label position. You can aslo select or highlight specific items. For more option, go to the advanced options panel. Here you can modify the number of nodes and the precision. Finally, you can download the map, part of the map or compound table in the export result panel. <br/>
 <img src="./figs/FELLA3.png" width="600" height="400"> <br/>
 ## Compare with SingR results
-Now that you have targeted some pathways, you can compare with the results guven by the gene onthology panles of SingR app.
+Now that you have targeted some pathways, you can compare with the results guven by the gene onthology panels of SingR app.
